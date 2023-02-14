@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+  }
+  
+  header {
+    background-image: url("https://www.webskittersacademy.in/wp-content/uploads/2015/08/Web-Developer-skill.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+  }
+  .one{ 
+        
+        width: 500px;
+        border: 5px solid black;
+        padding: 60px;
+        margin: 20px;
+        background-color: skyblue;
+  }
+  .two{
+    padding-top: 5%;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  header a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  header a:hover {
+    background-color: lightgray;
+  }
+  
+  nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px
+  }
+  footer{
+    text-align: center;
+    font-size: larger;
+    background-color: lavender;
+  }
