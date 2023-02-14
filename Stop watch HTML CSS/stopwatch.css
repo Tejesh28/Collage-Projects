@@ -1,0 +1,33 @@
+header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 5px;
+    text-align: center;
+  }
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #buttons button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  #buttons button:hover {
+    background-color: steelblue;
+  }
+  
